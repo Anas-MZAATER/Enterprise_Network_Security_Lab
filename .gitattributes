@@ -1,0 +1,11 @@
+# Normalize all files
+* text=auto
+# Markdown files use LF
+*.md text eol=lf
+# Code files use LF
+*.java text eol=lf
+*.ts text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.mp4 filter=lfs diff=lfs merge=lfs -text
